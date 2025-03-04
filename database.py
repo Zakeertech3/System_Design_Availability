@@ -43,3 +43,11 @@ def get_all_incidents():
     incidents = cursor.fetchall()
     conn.close()
     return incidents
+
+def clear_incidents():
+    """Remove all incident records from the database."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM incidents")
+    conn.commit()
+    conn.close()
