@@ -44,7 +44,7 @@ Ensure you have **Python 3.7 or later** installed on your system.
 ### 🔹 Installation Steps
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_GITHUB/real-time-emergency-dashboard.git
+git clone https://github.com/Zakeertech3/System_Design_Availability.git
 cd real-time-emergency-dashboard
 
 # Install dependencies
