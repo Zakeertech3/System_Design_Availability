@@ -1,5 +1,4 @@
-# cache.py
-
+# Description: This file contains functions to cache data to avoid unnecessary API calls.
 import json
 import os
 

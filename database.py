@@ -1,5 +1,4 @@
-# database.py
-
+# Description: This file contains the database operations for the incidents database.
 import sqlite3
 from sqlite3 import Connection
 

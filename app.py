@@ -1,5 +1,4 @@
-# app.py
-
+# Description: Main Streamlit application file for the Real-Time Emergency Response Dashboard.
 import streamlit as st
 from database import init_db, add_incident, get_all_incidents
 from cache import update_cache, get_cached_data
@@ -14,7 +13,6 @@ init_db()
 st.set_page_config(page_title="Real-Time Emergency Response Dashboard", layout="wide")
 st.title("Real-Time Emergency Response Dashboard")
 
-# Create tabs for different views
 tabs = st.tabs(["Dashboard", "Simulate Incident", "Map View"])
 
 # ----- Dashboard Tab -----

@@ -1,10 +1,8 @@
-
-# sensors.py
-
+# Description: This file contains the code for the weather sensor that fetches weather data from the OpenWeatherMap API.
 import datetime
 import requests
 
-# Your provided OpenWeatherMap API key:
+# OpenWeatherMap API key:
 API_KEY = "6c75ff9290b80b9ee9641bef1f53fd0b"
 
 
